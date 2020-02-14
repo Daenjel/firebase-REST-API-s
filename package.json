@@ -1,0 +1,28 @@
+{
+  "name": "ilearn",
+  "version": "1.0.0",
+  "description": "REST API to retrieve data from firebase",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sudarshan101/nodefirebaseApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sudarshan101/nodefirebaseApi/issues"
+  },
+  "homepage": "https://github.com/Sudarshan101/nodefirebaseApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "firebase": "^7.8.2",
+    "fs": "0.0.1-security",
+    "method-override": "^3.0.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  }
+}
