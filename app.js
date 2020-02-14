@@ -16,13 +16,13 @@ app.use(function(req, res, next) { //allow cross origin requests
     next();
 });
 Firebase.initializeApp({
-    databaseURL: "https://ilearn-1c5f7.firebaseio.com/",
+    databaseURL: "https://project_id.firebaseio.com/",
     serviceAccount: './testapp.json', //this is file that I downloaded from Firebase Console
 });
 var db = Firebase.database();
-var usersRef = db.ref("Sentimental");
+var usersRef = db.ref("users");
 
-// var FirebaseRef = new Firebase("https://ilearn-1c5f7.firebaseio.com/");
+// var FirebaseRef = new Firebase("https://project_id.firebaseio.com/");
 // configuration
 app.use(express.static(__dirname + '/public'));                 // set the static files location /public/img will be /img for users
 app.use('/public/uploads',express.static(__dirname + '/public/uploads'));
